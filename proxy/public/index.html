@@ -6,10 +6,11 @@
     <title>9 Trails: Trails for Hiking, Dog Walking, and More</title>
   </head>
   <body>
-    <div id="Info"></div>
-    <div id="CountDown"></div>
-    <div id="Related"></div>
-    <div id="Reviews"></div>
+    <div id="trails"></div>
+    <div id="users"></div>
+    <div id="photos"></div>
+    <div id="reviews"></div>
+    <div id="paths"></div>
     <script src="/lib/react.development.js"></script>
     <script src="/lib/react-dom.development.js"></script>
     <script src="http://localhost:3001/app.js"></script>
@@ -18,8 +19,8 @@
     <script src="http://localhost:3004/app.js"></script>
     <script>
       ReactDOM.render(
-        React.createElement(Info),
-        document.getElementById('Profile')
+        React.createElement(user),
+        document.getElementById('users')
       );
     </script>
   </body>
