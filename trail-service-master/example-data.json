@@ -1,0 +1,32 @@
+{
+  "data": {
+    "type": "trail",
+    "trail_id": 1,
+    "attributes": {
+      "trail_name": "Golden Gate Park Trail",
+      "distance": 6.1,
+      "distance_units": "miles",
+      "elevation_gain": 351,
+      "elevation_units": "ft",
+      "description": "Golden Gate Park Trail is a 6.1 mile heavily trafficked loop trail located near San Francisco, California that features a lake and is good for all skill levels. The trail offers a number of activity options and is accessible year-round. Dogs are also able to use this trail but must be kept on leash.",
+      "route_type": "Loop",
+      "difficulty": "Easy",
+      "tags": [
+        "dogs on leash",
+        "kid friendly",
+        "birding",
+        "hiking",
+        "mountain biking",
+        "nature trips",
+        "road biking",
+        "trail running",
+        "walking",
+        "forest",
+        "lake",
+        "partially paved"
+        ],
+      "general_area": "Golden Gate Park",
+      "origin": "https://www.alltrails.com/trail/us/california/golden-gate-park-trail"
+    }
+  }
+}

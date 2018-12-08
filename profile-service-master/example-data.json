@@ -1,0 +1,17 @@
+{
+    "data": {
+        "type": "users",
+        "id": "1",
+        "attributes": {
+            "first_name": "Matt",
+            "last_name": "Weber",
+            "email": "matt@feldmanweber.com",
+            "location": "Kenai, AK",
+            "date_joined": "2018-03-19",
+            "favorite_activities": ["Hunting", "Hiking", "Fishing"],
+            "bio": "Husband | Software Engineer | Serial Entrepreneur",
+            "photo_url": "https://avatars1.githubusercontent.com/u/18507767",
+            "pro": true
+        }
+    }
+}
