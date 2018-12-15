@@ -1,3 +1,6 @@
 [submodule "profile-service"]
 	path = profile-service
 	url = git@github.com:rpt09-scully/profile-service.git
+[submodule "trail-service"]
+	path = trail-service
+	url = git@github.com:rpt09-scully/trail-service.git
