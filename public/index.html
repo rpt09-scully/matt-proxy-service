@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="application-name" content="Nine Trails FEC - Team Scully">
+  <meta name="description" content="Nine Trails - Explore Trails Near You.">
+  <meta name="robots" content="noindex,nofollow"><!-- All Search Engines -->
+  <meta name="googlebot" content="noindex,nofollow"><!-- Google Specific -->
+  <meta name="subject" content="Local hiking trail.">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <!-- todo: ryan ruse css modules -->
+  <link rel="stylesheet" href="http://localhost:3004/style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  
+</head>
+
+<body>
+  <div class="container">
+    <div id='menu' class="row justify-content-center">
+      <ul id='menu_left' class='row flex-row justify-content-around col-sm-12 col-md-5 col-lg-4 text-left'> 
+        <li><a href='#'>Explore</a></li>
+        <li><a href='#'>Plan</a></li>
+        <li><a href='#'>History</a></li>
+      </ul>
+      <div id='header' class='col-sm-12 col-md-2 col-lg-4'>
+       9 TRAILS
+      </div>
+      <div id='menu_right' class='row flex-row-reverse col-sm-12 col-md-5 col-lg-4'>
+        <div id='user_menu'  class='col-5'>
+            <ul  class='row flex-row justify-content-around text-right '> 
+              <li><a href='#'>Sign Up</a></li>
+              <li><a href='#'>Login</a></li>
+            </ul>  
+          </div>
+        <div id='search_bar_wpr' class='col-7'>
+          <input id='search_bar' type='text' placeholder='Search..'>
+        </div>
+       
+      </div>
+    </div> 
+    <div class="row">
+      <div class="d-none d-lg-block col-8  justify-left">BREADCRUMBS > GO > HERE</div>
+    </div>
+    <div id='main' class="row justify-content-center">
+        <!-- banner -->
+        <div id='9Trails.TrailService.Banner' class='banner row flex-row justify-content-center col-12'>
+          <!-- text/overlay content on banner -->
+          <div id='banner_content' class='row flex-row justify-content-left align-items-end col-12'>
+            <div class='trail_title_wpr'>
+              <h2>TITLE</h2>
+              <p>Other stuff</p>
+            </div>
+          </div>
+          <!-- little bubble badges-->
+          <div id='bubble_menu' class='row flex-row justify-content-around'>
+            <div class='bubble'></div>
+            <div class='bubble'></div>
+            <div class='bubble d-none d-lg-flex'></div>
+            <div class='bubble d-none d-lg-flex'></div>
+            <div class='bubble d-none d-lg-flex'></div>
+            <div class='bubble'></div>
+          </div>
+        </div>
+        <!-- the guts -->
+        <div id='main_content' class='row col-12 justify-content-left'>
+          <div class='left_col col-sm-12 col-md-6 col-lg-8'>
+            <div class='wrapper'>
+              <!-- description tags etc -->
+              <div id='9Trails.TrailService.TrailDescription' class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                <h5>trail description + tags</h5>
+              </div>
+            </div> <!-- end wrapper -->
+          </div>
+          <div class='right_col col-sm-12 col-md-6 col-lg-4'>
+            <div class='wrapper'>
+              <!-- path (canonical) -->
+              <div id='9Trails.PathsService.CanonicalPath' class='widgetWrapper row flex-row'>
+                  <h5>map/path </h5>
+              </div>
+              <!-- user stats -->
+              <div id='user stats' class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                  <div id='9Trails.ProfileService.Profile'>
+                    <h5>user stats </h5>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id='tab_content' class='col-sm-12 col-md-6 col-lg-8'>
+            <!-- tab time -->
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-reviews-tab" data-toggle="tab" href="#nav-reviews" role="tab" aria-controls="nav-reviews" aria-selected="true">Reviews</a>
+                <a class="nav-item nav-link" id="nav-photos-tab" data-toggle="tab" href="#nav-photos" role="tab" aria-controls="nav-photos" aria-selected="false">Photos</a>
+                <a class="nav-item nav-link" id="nav-recordings-tab" data-toggle="tab" href="#nav-recordings" role="tab" aria-controls="nav-recordings" aria-selected="false">Recordings</a>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <!-- reviews -->
+              <div class="tab-pane fade show active" id="nav-reviews" role="tabpanel" aria-labelledby="nav-reviews-tab">
+                <!-- TODO: ryan change this and push to a namespaced thing -->
+                <div id='9Trails.ReviewService.ReviewModule'>
+                  <h2> Wow Reviews! </h2>
+                  <div class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                      <h5>review 1 </h5>
+                  </div>
+                  <div class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                      <h5>review 2 </h5>
+                  </div>
+                  <div class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                      <h5>review 3 </h5>
+                  </div>
+                  <div class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                      <h5>review 4 </h5>
+                  </div>
+                  <div class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                      <h5>review 5 </h5>
+                  </div>
+                </div>
+              </div>
+              <!-- photos -->
+              <div class="tab-pane fade" id="nav-photos" role="tabpanel" aria-labelledby="nav-photos-tab">
+               <div id='9Trails.TrailPhotosService.App'>
+                  <h2> Wow Photos! </h2>
+                  <div class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                      <h5>photos 1 </h5>
+                  </div>
+                  <div class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                      <h5>photos 2 </h5>
+                  </div>
+                  <div class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                      <h5>photos 3 </h5>
+                  </div>
+                  <div class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                      <h5>photos 4 </h5>
+                  </div>
+                  <div class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                      <h5>photos 5 </h5>
+                  </div>
+                </div>
+              </div>
+              <!-- recordings -->
+              <div class="tab-pane fade" id="nav-recordings" role="tabpanel" aria-labelledby="nav-recordings-tab">
+                <div id='9Trails.PathsService.Recordings'>
+                  <h2> Wow Recordings! </h2>
+                  <div class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                      <h5>recording 1 </h5>
+                  </div>
+                  <div class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                      <h5>recording 2 </h5>
+                  </div>
+                  <div class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                      <h5>recording 3 </h5>
+                  </div>
+                  <div class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                      <h5>recording 4 </h5>
+                  </div>
+                  <div class='servicePlaceholder row flex-row justify-content-center align-items-center'>
+                      <h5>recording 5 </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class='col-sm-12 col-md-6 col-lg-4'>
+          <!-- not sure what would go here actually..-->
+        </div>
+    </div>
+  </div> 
+  <!-- global styling/utils libs -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+  crossorigin="anonymous"></script>
+  <!-- react -->
+  <script type='text/javascript' src='lib/react.development.js'></script>
+  <script type='text/javascript' src='lib/react-dom.development.js'></script>
+  <!-- load services -->
+  <script src='http://localhost:3001/app.js'></script>
+  <script src='http://localhost:3002/app.js'></script>
+  <script src='http://localhost:3003/app.js'></script>
+  <script src='http://localhost:3004/app.js'></script>
+  <script src='http://localhost:3005/app.js'></script>
+
+  <!-- DOM that -->
+    <script>
+    // if properly namespaced the DOM insertion is automated!
+    Object.keys(window.NT).forEach((serviceKey) => {
+      // now get service object
+      Object.keys(window.NT[serviceKey]).forEach((widgetKey) => {
+        const dom_id = `9Trails.${serviceKey}.${widgetKey}`;
+        const currentWidget = window.NT[serviceKey][widgetKey];
+        ReactDOM.render(React.createElement(currentWidget), document.getElementById(dom_id));
+      });
+    });
+  </script>
+</body>
+
+</html>
